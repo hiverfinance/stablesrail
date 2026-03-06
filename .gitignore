@@ -1,0 +1,26 @@
+# dependencies
+node_modules
+.npmrc
+
+# build output
+dist
+coverage
+
+# environment variables
+.env
+.env.*
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# macOS
+.DS_Store
+
+# editors
+.vscode
+.idea
+
+# typescript
+*.tsbuildinfo

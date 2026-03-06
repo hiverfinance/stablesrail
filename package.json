@@ -7,6 +7,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiverfinance/stablesrail.git"
+  },
+  "homepage": "https://github.com/hiverfinance/stablesrail#readme",
+  "bugs": {
+    "url": "https://github.com/hiverfinance/stablesrail/issues"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --watch",
