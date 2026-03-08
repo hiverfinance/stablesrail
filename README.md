@@ -1,8 +1,8 @@
 # @hiverfinance/stablesrail
 
-**Stablesrail SDK for Node.js, TypeScript, and Bun**
+**StablesRail SDK for Node.js, TypeScript, and Bun**
 
-This SDK provides a clean, type-safe interface for interacting with the [Stablesrail API](https://docs.stablesrail.io/), including onboarding users, managing wallets, and initiating transfers.
+This SDK provides a clean, type-safe interface for interacting with the [StablesRail API](https://docs.stablesrail.io/), including onboarding users, managing wallets, and initiating transfers.
 
 ---
 
