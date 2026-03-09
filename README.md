@@ -6,6 +6,61 @@ This SDK provides a clean, type-safe interface for interacting with the [Stables
 
 ---
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [API](#api)
+  - [Stablesrail](#stablesrail)
+  - [stablesrail.user](#stablesrailuser)
+    - [onboard](#onboardbvn-string)
+    - [status](#statusrequestid-string)
+    - [details](#detailsuserid-string)
+    - [manage](#managebody)
+    - [onramp](#onrampbody)
+    - [offramp.initiate](#offrampinitiatebody)
+    - [offramp.status](#offrampstatusrequestid-string)
+  - [stablesrail.bank](#stablesrailbank)
+    - [codes](#codes)
+    - [list](#list)
+    - [get](#getaccountid-string)
+    - [add](#addbody)
+    - [update](#updatebody)
+    - [remove](#removeaccountid-string)
+    - [virtualAccount](#virtualaccount)
+    - [offramp.initiate](#offrampinitiatebody-1)
+    - [offramp.status](#offrampstatusrequestid-string-1)
+  - [stablesrail.wallet](#stablesrailwallet)
+    - [list](#listuserid-string)
+    - [get](#get)
+    - [add](#addbody-1)
+    - [update](#updatebody-1)
+    - [remove](#removeaddress-string)
+    - [migrate](#migratebody)
+    - [withdraw](#withdrawbody)
+  - [stablesrail.virtualAccount](#stablesrailvirtualaccount)
+    - [get](#get-1)
+    - [details](#detailsrequestid-string)
+  - [stablesrail.fee](#stablesrailfee)
+    - [get](#get-2)
+    - [balance](#balance)
+    - [manage](#managebody-1)
+    - [withdrawal.request](#withdrawalrequestbody)
+    - [withdrawal.history](#withdrawalhistoryparams)
+    - [withdrawal.status](#withdrawalstatuswithdrawalid-string)
+  - [stablesrail.transaction](#stablesrailtransaction)
+    - [status](#statusuuid-string)
+  - [stablesrail.config](#stablesrailconfig)
+    - [get](#getfintechid-string)
+    - [ip](#ipbody)
+    - [apikey.regenerate](#apikeyregenerate)
+    - [webhook.set](#webhooksetbody)
+- [TypeScript Support](#typescript-support)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
 ## Installation
 
 Using **npm**:
